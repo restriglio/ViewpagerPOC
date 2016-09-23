@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="Action" type="id" />
+
+    <item name="Action1" type="id" />
+
+    <item name="Action2" type="id" />
+
+    <item name="Action3" type="id" />
+
+</resources>
