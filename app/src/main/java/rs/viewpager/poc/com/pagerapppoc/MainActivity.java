@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
 
         viewPager = (ViewPager) findViewById(R.id.viewpager);
         viewPager.setAdapter(new CustomPagerAdapter(this));
-        //viewPager.setAccessibilityDelegate(new MyAccessibilityDelegate(this));
         ViewCompat.setAccessibilityDelegate(viewPager, new MyAccessibilityDelegateCompat());
 
     }
