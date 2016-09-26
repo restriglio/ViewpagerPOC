@@ -14,11 +14,11 @@ import java.util.List;
  */
 public class CustomAdapter extends RecyclerView.Adapter {
 
-    private Context mContext;
+    private Context context;
     private List<String> mothsList;
 
     public CustomAdapter(Context context, List<String> mothsList) {
-        mContext = context;
+        this.context = context;
         this.mothsList = mothsList;
     }
 
