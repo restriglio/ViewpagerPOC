@@ -12,12 +12,19 @@
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-
-    <!--<rs.viewpager.poc.com.pagerapppoc.MonthViewClanedar
-        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/monthView">
-    </rs.viewpager.poc.com.pagerapppoc.MonthViewClanedar>-->
+        android:layout_above="@+id/titleText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Element"
+        android:id="@+id/titleText"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/viewpager"
+        android:layout_alignEnd="@+id/viewpager"
+        android:importantForAccessibility="yes"/>
 
 </RelativeLayout>
