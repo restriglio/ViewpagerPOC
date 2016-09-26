@@ -5,9 +5,9 @@ package rs.viewpager.poc.com.pagerapppoc;
  */
 public enum ModelObject {
 
-    RED(1, R.layout.custom_month_view),
-    BLUE(2, R.layout.custom_month_view),
-    GREEN(3, R.layout.custom_month_view);
+    UNO(1, R.layout.custom_month_view),
+    DOS(2, R.layout.custom_month_view),
+    TRES(3, R.layout.custom_month_view);
 
     private int mTitleResId;
     private int mLayoutResId;
